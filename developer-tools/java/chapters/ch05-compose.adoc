@@ -64,8 +64,8 @@ services:
 
 In this Compose file:
 
-. Two services in this Compose are defined by the name `db` and `web` attributes
-. Image name for each service defined using `image` attribute
+. Two services in this Compose are defined by the name `db` and `web` attributes .
+. Image name for each service defined using `image` attribute .
 . The `mysql:8` image starts the MySQL server.
 . `environment` attribute defines environment variables to initialize MySQL server.
 .. `MYSQL_DATABASE` allows you to specify the name of a database to be created on image startup.
